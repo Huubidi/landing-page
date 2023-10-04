@@ -16,15 +16,11 @@ body {
     }
 
 
-
 .headertop {
 
 display: flex;
 align-items: center;
 justify-content: space-around;
-
-
-
 
 
 }
@@ -110,6 +106,45 @@ img {
 max-width:100%;
 
 
-
-
 }
+
+
+.infoheader {
+
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+
+
+.images {
+
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    
+    
+  }
+
+  .kyuss, .brant, .qotsa, .yawning {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    
+    
+  }
+
+  .sky, .bro, .queen, .man {
+
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+    
+  }
+
+  
