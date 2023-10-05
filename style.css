@@ -2,9 +2,11 @@
 body {
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
-
 
 .rectangle1 {
 
@@ -15,13 +17,11 @@ body {
     
     }
 
-
 .headertop {
 
 display: flex;
 align-items: center;
 justify-content: space-around;
-
 
 }
 
@@ -32,7 +32,6 @@ justify-content: space-around;
     font-weight: bold;
     margin-right: 220px;
     
-
 }
 
 h1 {
@@ -42,6 +41,7 @@ h1 {
     font-weight: 800;
 
 }
+
 ul {
 
     display: flex;
@@ -52,7 +52,6 @@ li {
 
 list-style-type: none;
 font-size: 18px;
-
 
 }
 
@@ -70,7 +69,6 @@ align-items: center;
 justify-content: center;
 margin: 50px;
 
-
 }
 
 .secondarytext {
@@ -80,11 +78,9 @@ margin: 50px;
     margin-bottom: 10px;
     margin-top: -20px;
     
-
 }
 
 .topbutton {
-
 
     padding: 10px;
     background-color: #3882F6;
@@ -98,15 +94,11 @@ margin: 50px;
     margin: 20px;
 }
 
-
 img {
-    
     
 max-width:100%;
 
-
 }
-
 
 .infoheader {
 
@@ -118,17 +110,15 @@ max-width:100%;
     margin: 30px;
   }
 
-
 .images {
 
     display: flex;
     justify-content: center;
     gap: 52px;
     
-    
   }
 
-  .kyuss, .brant, .qotsa, .yawning {
+.kyuss, .brant, .qotsa, .yawning {
 
     display: flex;
     flex-direction: column;
@@ -136,24 +126,23 @@ max-width:100%;
     max-width: 200px;
     text-align: center;
     
-    
   }
 
-  .sky, .bro, .queen, .man {
+.sky, .bro, .queen, .man {
 
     border-radius: 15px;
     border: 5px solid #3882F6;
     
   }
 
-  .text {
+.text {
 
     color: rgb(80, 80, 80);
     margin: 10px;
 
   }
 
-  .rectangle3 {
+.rectangle3 {
 
     display: flex;
     flex-direction: column;
@@ -161,33 +150,30 @@ max-width:100%;
     justify-content: center;
     background-color: #E5E7EB;
     
-    
-    
-
   }
 
-    .quoteblock {
+.quoteblock {
 
-        margin: 120px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: right;
+    margin: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 
     }
 
 
-  .quote {
+.quote {
 
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #1f2937cb;
     margin-top: 30px;
     
     
 
   }
 
-  .quoteattribution {
+.quoteattribution {
 
     
     font-size: 24px;
@@ -198,7 +184,7 @@ max-width:100%;
 
   }
 
-  .popup {
+.popup {
 
 
     background-color: #3882F6;
@@ -211,7 +197,7 @@ max-width:100%;
     
   }
 
-  .botbutton {
+.botbutton {
 
     font-weight: 800;
     border-radius: 10px;
@@ -225,7 +211,7 @@ max-width:100%;
      
   }
 
-  .calltoaction {
+.calltoaction {
 
     color: #F9FAF8;
     font-size: 24px;
@@ -233,10 +219,22 @@ max-width:100%;
 
   }
 
-  .signuptext {
+.signuptext {
 
     color: #F9FAF8;
     margin-top: 5px;
 
+  }
+
+.footer {
+
+    display: flex;
+    margin-top: auto;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #F9FAF8;
+    
   }
   
