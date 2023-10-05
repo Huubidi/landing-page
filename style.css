@@ -83,11 +83,10 @@ margin: 50px;
 
 }
 
-button {
+.topbutton {
 
 
     padding: 10px;
-    
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
@@ -196,6 +195,48 @@ max-width:100%;
     color: #1F2937;
     margin-top: 10px;
     margin-right: 120px;
+
+  }
+
+  .popup {
+
+
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 150px;
+    padding: 50px;
+    border-radius: 10px;
+    
+  }
+
+  .botbutton {
+
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px;
+    border-color: #F9FAF8;
+    padding-left: 30px;
+    padding-right: 30px;
+
+     
+  }
+
+  .calltoaction {
+
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+
+  .signuptext {
+
+    color: #F9FAF8;
+    margin-top: 5px;
 
   }
   
